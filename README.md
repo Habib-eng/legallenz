@@ -1,9 +1,9 @@
-# **DocuThinker - AI-Powered Document Analysis and Summarization App**
+# **LegalLens - AI-Powered Document Analysis and Summarization App**
 
-Welcome to **DocuThinker**! This is a full-stack **(FERN-Stack)** application that integrates an AI-powered document processing backend with a React-based frontend. The app allows users to upload documents for summarization, generate key insights, and chat with an AI based on the document's content.
+Welcome to **LegalLens**! This is a full-stack **(FERN-Stack)** application that integrates an AI-powered document processing backend with a React-based frontend. The app allows users to upload documents for summarization, generate key insights, and chat with an AI based on the document's content.
 
 <p align="center">
-  <img src="images/logo.png" alt="DocuThinker Logo" width="50%" style="border-radius: 8px">
+  <img src="images/logo.png" alt="LegalLens Logo" width="50%" style="border-radius: 8px">
 </p>
 
 ## **📚 Table of Contents**
@@ -40,21 +40,21 @@ Welcome to **DocuThinker**! This is a full-stack **(FERN-Stack)** application th
 
 <h2 id="-overview">📖 Overview</h2>
 
-The **DocuThinker** app is designed to provide users with a simple, AI-powered document management tool. Users can upload PDFs or Word documents and receive summaries, key insights, and discussion points. Additionally, users can chat with an AI using the document's content for further clarification.
+The **LegalLens** app is designed to provide users with a simple, AI-powered document management tool. Users can upload PDFs or Word documents and receive summaries, key insights, and discussion points. Additionally, users can chat with an AI using the document's content for further clarification.
 
-**DocuThinker** is created using the **FERN-Stack** architecture, which stands for **Firebase, Express, React, and Node.js**. The backend is built with Node.js and Express, integrating Firebase for user authentication and MongoDB for data storage. The frontend is built with React and Material-UI, providing a responsive and user-friendly interface.
+**LegalLens** is created using the **FERN-Stack** architecture, which stands for **Firebase, Express, React, and Node.js**. The backend is built with Node.js and Express, integrating Firebase for user authentication and MongoDB for data storage. The frontend is built with React and Material-UI, providing a responsive and user-friendly interface.
 
-It is currently deployed live on **Vercel** and **Render**. You can access the live app **[here](https://docuthinker-fullstack-app.vercel.app/)**.
+It is currently deployed live on **Vercel** and **Render**. You can access the live app **[here](https://LegalLens-fullstack-app.vercel.app/)**.
 
-[![Deployed with Vercel](https://img.shields.io/badge/Deployed%20with-Vercel-green)](https://docuthinker-fullstack-app.vercel.app)
-[![Render Success](https://img.shields.io/badge/Render-Success-green)](https://docuthinker-ai-app.onrender.com/)
-[![Netlify Backup Deployed](https://img.shields.io/badge/Netlify-Backup%20Deployed-green)](https://docuthinker-ai-app.netlify.app)
+[![Deployed with Vercel](https://img.shields.io/badge/Deployed%20with-Vercel-green)](https://LegalLens-fullstack-app.vercel.app)
+[![Render Success](https://img.shields.io/badge/Render-Success-green)](https://LegalLens-ai-app.onrender.com/)
+[![Netlify Backup Deployed](https://img.shields.io/badge/Netlify-Backup%20Deployed-green)](https://LegalLens-ai-app.netlify.app)
 [![Firebase Functional](https://img.shields.io/badge/Firebase-Functional-green)](https://firebase.google.com)
 [![MongoDB Atlas Connected](https://img.shields.io/badge/MongoDB%20Atlas-Connected-green)](https://www.mongodb.com/cloud/atlas)
 
 <h2 id="features">✨ Features</h2>
 
-**DocuThinker** offers a wide range of features to help users manage and analyze their documents effectively. Here are some of the key features of the app:
+**LegalLens** offers a wide range of features to help users manage and analyze their documents effectively. Here are some of the key features of the app:
 
 - **Document Upload & Summarization**: Upload PDFs or Word documents for AI-generated summaries.
 - **Key Insights & Discussion Points**: Generate important ideas and topics for discussion from your documents.
@@ -113,7 +113,7 @@ It is currently deployed live on **Vercel** and **Render**. You can access the l
 
 <h2 id="user-interface">🖼️ User Interface</h2>
 
-**DocuThinker** features a clean and intuitive user interface designed to provide a seamless experience for users. The app supports both light and dark themes, responsive design, and easy navigation. Here are some screenshots of the app:
+**LegalLens** features a clean and intuitive user interface designed to provide a seamless experience for users. The app supports both light and dark themes, responsive design, and easy navigation. Here are some screenshots of the app:
 
 ### **Landing Page**
 
@@ -291,10 +291,10 @@ It is currently deployed live on **Vercel** and **Render**. You can access the l
 
 <h2 id="complete-file-structure">📂 Complete File Structure</h2>
 
-The **DocuThinker** app is organized into separate subdirectories for the frontend, backend, and mobile app. Each directory contains the necessary files and folders for the respective components of the app. Here is the complete file structure of the app:
+The **LegalLens** app is organized into separate subdirectories for the frontend, backend, and mobile app. Each directory contains the necessary files and folders for the respective components of the app. Here is the complete file structure of the app:
 
 ```
-DocuThinker-AI-App/
+LegalLens-AI-App/
 ├── backend/
 │   ├── controllers.js                # Controls the flow of data and logic
 │   ├── models.js                     # Models for interacting with database and AI/ML services
@@ -404,8 +404,8 @@ Ensure you have the following tools installed:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/hoangsonww/DocuThinker-AI-App.git
-   cd DocuThinker-AI-App/backend
+   git clone https://github.com/hoangsonww/LegalLens-AI-App.git
+   cd LegalLens-AI-App/backend
    ```
 
 2. **Navigate to the frontend directory**:
@@ -482,7 +482,7 @@ Note that this is optional since we are deploying the backend on **Render**. How
 
 <h2 id="api-endpoints">📋 API Endpoints</h2>
 
-The backend of **DocuThinker** provides several API endpoints for user authentication, document management, and AI-powered insights. These endpoints are used by the frontend to interact with the backend server:
+The backend of **LegalLens** provides several API endpoints for user authentication, document management, and AI-powered insights. These endpoints are used by the frontend to interact with the backend server:
 
 | **Method** | **Endpoint**                         | **Description**                                                                                     |
 | ---------- | ------------------------------------ | --------------------------------------------------------------------------------------------------- |
@@ -527,7 +527,7 @@ For example, our API endpoints documentation looks like this:
 
 ### **API Architecture**
 
-- We use **Node.js** and **Express** to build the backend server for **DocuThinker**.
+- We use **Node.js** and **Express** to build the backend server for **LegalLens**.
 - The backend API is structured using **Express** and **Firebase Admin SDK** for user authentication and data storage.
 - We use the MVC (Model-View-Controller) pattern to separate concerns and improve code organization.
 - The API endpoints are designed to be RESTful and follow best practices for error handling and response formatting.
@@ -575,11 +575,11 @@ The backend APIs uses centralized error handling to capture and log errors. Resp
 
 <h2 id="mobile-app">📱 Mobile App</h2>
 
-The **DocuThinker** mobile app is built using **React Native** and **Expo**. It provides a mobile-friendly interface for users to upload documents, generate summaries, and chat with an AI. The mobile app integrates with the backend API to provide a seamless experience across devices.
+The **LegalLens** mobile app is built using **React Native** and **Expo**. It provides a mobile-friendly interface for users to upload documents, generate summaries, and chat with an AI. The mobile app integrates with the backend API to provide a seamless experience across devices.
 
 Currently, it is in development and will be released soon on both the **App Store** and **Google Play Store**.
 
-Stay tuned for the release of the **DocuThinker** mobile app!
+Stay tuned for the release of the **LegalLens** mobile app!
 
 Below is a screenshot of the mobile app (in development):
 
@@ -589,7 +589,7 @@ Below is a screenshot of the mobile app (in development):
 
 <h2 id="containerization">📦 Containerization</h2>
 
-The **DocuThinker** app can be containerized using **Docker** for easy deployment and scaling. Follow these steps to containerize the app:
+The **LegalLens** app can be containerized using **Docker** for easy deployment and scaling. Follow these steps to containerize the app:
 
 1. Run the following command to build the Docker image:
    ```bash
@@ -617,15 +617,15 @@ The **DocuThinker** app can be containerized using **Docker** for easy deploymen
 
 ### **Live Deployments**
 
-- We have deployed the app live on **Vercel** and **Render**. You can access the live app **[here](https://docuthinker-fullstack-app.vercel.app/)**.
-- Additionally, we are also using **Netlify** for backups and testing. You can access the backup app **[here](https://docuthinker-ai-app.netlify.app/)**.
+- We have deployed the app live on **Vercel** and **Render**. You can access the live app **[here](https://LegalLens-fullstack-app.vercel.app/)**.
+- Additionally, we are also using **Netlify** for backups and testing. You can access the backup app **[here](https://LegalLens-ai-app.netlify.app/)**.
 - The mobile app will be deployed on the **App Store** and **Google Play Store** soon.
 
 ### **Backend Deployment (Render)**
 
 - The backend can be deployed on platforms like **Heroku**, **Render**, or **Vercel**.
 
-- Currently, we are using **Render** to host the backend. You can access the live backend **[here](https://docuthinker-ai-app.onrender.com/)**.
+- Currently, we are using **Render** to host the backend. You can access the live backend **[here](https://LegalLens-ai-app.onrender.com/)**.
 
 ### **Important Note about Backend Deployment**
 
@@ -686,17 +686,17 @@ We welcome contributions from the community! Follow these steps to contribute:
    ```
 5. **Submit a pull request**: Please submit a pull request from your forked repository to the main repository. I will review your changes and merge them into the main branch shortly.
 
-Thank you for contributing to **DocuThinker**! 🎉
+Thank you for contributing to **LegalLens**! 🎉
 
 <h2 id="license">📝 License</h2>
 
 This project is licensed under the **Creative Commons Attribution-NonCommercial License**. See the [LICENSE](LICENSE.md) file for details.
 
-The **DocuThinker** open-source project is for educational purposes only and should not be used for commercial applications. Feel free to use it for learning and personal projects!
+The **LegalLens** open-source project is for educational purposes only and should not be used for commercial applications. Feel free to use it for learning and personal projects!
 
 <h2 id="alternative-docs">📚 Alternative Documentation</h2>
 
-- **[Alternative General Documentations](https://hoangsonww.github.io/DocuThinker-AI-App/)**
+- **[Alternative General Documentations](https://hoangsonww.github.io/LegalLens-AI-App/)**
 - **[Backend README](backend/README.md)**
 - **[Frontend README](frontend/README.md)**
 - **[Mobile App README](mobile-app/README.md)**
@@ -717,4 +717,4 @@ The **DocuThinker** open-source project is for educational purposes only and sho
 
 ---
 
-[🔝 Back to Top](#docuthinker---ai-powered-document-analysis-and-summarization-app)
+[🔝 Back to Top](#LegalLens---ai-powered-document-analysis-and-summarization-app)

@@ -34,7 +34,7 @@ const DocumentsPage = ({ theme }) => {
     const fetchDocuments = async () => {
       try {
         const response = await axios.get(
-          `https://docuthinker-ai-app.onrender.com/documents/${userId}`,
+          `https://LegalLens-ai-app.onrender.com/documents/${userId}`,
         );
         const documentsData = response.data;
         const documentsList = Object.keys(documentsData)
@@ -62,7 +62,7 @@ const DocumentsPage = ({ theme }) => {
   const handleViewDocument = async (docId) => {
     try {
       const response = await axios.get(
-        `https://docuthinker-ai-app.onrender.com/document-details/${userId}/${docId}`,
+        `https://LegalLens-ai-app.onrender.com/document-details/${userId}/${docId}`,
       );
       const { summary, originalText } = response.data;
       navigate("/home", { state: { summary, originalText } });
@@ -78,7 +78,7 @@ const DocumentsPage = ({ theme }) => {
   const handleDeleteDocument = async (docId) => {
     try {
       await axios.delete(
-        `https://docuthinker-ai-app.onrender.com/documents/${userId}/${docId}`,
+        `https://LegalLens-ai-app.onrender.com/documents/${userId}/${docId}`,
       );
       setDocuments(documents.filter((doc) => doc.id !== docId));
     } catch (error) {
@@ -89,7 +89,7 @@ const DocumentsPage = ({ theme }) => {
   const handleDeleteAllDocuments = async () => {
     try {
       await axios.delete(
-        `https://docuthinker-ai-app.onrender.com/documents/${userId}`,
+        `https://LegalLens-ai-app.onrender.com/documents/${userId}`,
       );
       setDocuments([]);
     } catch (error) {
@@ -105,7 +105,7 @@ const DocumentsPage = ({ theme }) => {
   const handleSaveTitle = async (docId) => {
     try {
       await axios.post(
-        `https://docuthinker-ai-app.onrender.com/update-document-title`,
+        `https://LegalLens-ai-app.onrender.com/update-document-title`,
         {
           userId,
           docId,

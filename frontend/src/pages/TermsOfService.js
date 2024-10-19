@@ -44,7 +44,7 @@ const TermsOfService = ({ theme }) => {
           1. Acceptance of Terms
         </Typography>
         <Typography variant="body1" sx={{ marginBottom: 3, font: "inherit" }}>
-          By accessing and using DocuThinker, you agree to comply with and be
+          By accessing and using LegalLens, you agree to comply with and be
           bound by the following terms and conditions ("Terms of Service").
           Please review these terms carefully. If you do not agree with these
           terms, you should not use this website.
@@ -64,7 +64,7 @@ const TermsOfService = ({ theme }) => {
           2. Services Provided
         </Typography>
         <Typography variant="body1" sx={{ marginBottom: 3, font: "inherit" }}>
-          DocuThinker allows users to upload, analyze, and process documents to
+          LegalLens allows users to upload, analyze, and process documents to
           extract useful information and insights. We aim to provide a seamless
           and secure platform for document processing, but we cannot guarantee
           the absolute accuracy or completeness of our services.
@@ -84,10 +84,10 @@ const TermsOfService = ({ theme }) => {
           3. User Responsibilities
         </Typography>
         <Typography variant="body1" sx={{ marginBottom: 3, font: "inherit" }}>
-          You agree to use DocuThinker in compliance with all applicable laws
+          You agree to use LegalLens in compliance with all applicable laws
           and regulations. You are responsible for the content of the documents
           you upload and must ensure that you have the necessary permissions or
-          rights to use them. You agree not to use DocuThinker for any unlawful
+          rights to use them. You agree not to use LegalLens for any unlawful
           or prohibited activities.
         </Typography>
 
@@ -126,7 +126,7 @@ const TermsOfService = ({ theme }) => {
         </Typography>
         <Typography variant="body1" sx={{ marginBottom: 3, font: "inherit" }}>
           We reserve the right to terminate or suspend your access to
-          DocuThinker at any time, without notice, if we believe that you have
+          LegalLens at any time, without notice, if we believe that you have
           violated these terms, misused our services, or engaged in any unlawful
           activities.
         </Typography>
@@ -145,9 +145,9 @@ const TermsOfService = ({ theme }) => {
           6. Intellectual Property
         </Typography>
         <Typography variant="body1" sx={{ marginBottom: 3, font: "inherit" }}>
-          All content, features, and functionality on DocuThinker, including
+          All content, features, and functionality on LegalLens, including
           text, graphics, logos, and software, are the exclusive property of
-          DocuThinker or its licensors. You may not reproduce, modify, or
+          LegalLens or its licensors. You may not reproduce, modify, or
           distribute any part of this platform without our prior written
           consent.
         </Typography>
@@ -166,7 +166,7 @@ const TermsOfService = ({ theme }) => {
           7. Limitation of Liability
         </Typography>
         <Typography variant="body1" sx={{ marginBottom: 3, font: "inherit" }}>
-          DocuThinker will not be liable for any direct, indirect, incidental,
+          LegalLens will not be liable for any direct, indirect, incidental,
           or consequential damages arising from your use of our platform. This
           includes any loss of data or damage to your device as a result of
           using our services.
@@ -251,7 +251,7 @@ const TermsOfService = ({ theme }) => {
           <a style={{ color: "#f57c00" }} href="https://sonnguyenhoang.com">
             Son Nguyen
           </a>{" "}
-          in 2024. Thank you for using DocuThinker! 🚀
+          in 2024. Thank you for using LegalLens! 🚀
         </Typography>
       </Box>
     </Box>

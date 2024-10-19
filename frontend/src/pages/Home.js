@@ -36,7 +36,7 @@ const Home = ({ theme }) => {
     setLoadingKeyIdeas(true);
     try {
       const response = await axios.post(
-        "https://docuthinker-ai-app.onrender.com/generate-key-ideas",
+        "https://LegalLens-ai-app.onrender.com/generate-key-ideas",
         {
           documentText: originalText,
         },
@@ -54,7 +54,7 @@ const Home = ({ theme }) => {
     setLoadingDiscussionPoints(true);
     try {
       const response = await axios.post(
-        "https://docuthinker-ai-app.onrender.com/generate-discussion-points",
+        "https://LegalLens-ai-app.onrender.com/generate-discussion-points",
         {
           documentText: originalText,
         },

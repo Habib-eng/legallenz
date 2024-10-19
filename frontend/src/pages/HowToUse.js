@@ -26,7 +26,7 @@ const HowToUse = ({ theme }) => {
           fontSize: "2rem",
         }}
       >
-        How to Use DocuThinker
+        How to Use LegalLens
       </Typography>
 
       {/* Introduction */}
@@ -40,7 +40,7 @@ const HowToUse = ({ theme }) => {
           lineHeight: "1.6",
         }}
       >
-        Welcome to <strong>DocuThinker</strong>, your AI-powered document
+        Welcome to <strong>LegalLens</strong>, your AI-powered document
         summarization tool. Follow the steps below to upload documents and make
         the most out of our key features like summarization, generating key
         ideas, and discussion points from your uploaded documents.
@@ -209,7 +209,7 @@ const HowToUse = ({ theme }) => {
               >
                 Use the 'Chat with AI' feature to ask specific questions or get
                 more information based on the document. Our AI models, trained
-                by DocuThinker, will use the document context to provide
+                by LegalLens, will use the document context to provide
                 tailored answers.
               </Typography>
             }
@@ -275,7 +275,7 @@ const HowToUse = ({ theme }) => {
           lineHeight: "1.6",
         }}
       >
-        DocuThinker currently supports:
+        LegalLens currently supports:
         <ul style={{ paddingLeft: "20px", marginTop: "8px", font: "inherit" }}>
           <li>PDF files</li>
           <li>DOCX (Word) files</li>
@@ -294,7 +294,7 @@ const HowToUse = ({ theme }) => {
           lineHeight: "1.6",
         }}
       >
-        DocuThinker helps you save time by summarizing long documents,
+        LegalLens helps you save time by summarizing long documents,
         extracting key ideas, and preparing discussion points for further
         exploration. Make sure to utilize the AI chat feature to dive deeper
         into any aspect of your document!
@@ -323,7 +323,7 @@ const HowToUse = ({ theme }) => {
         <a style={{ color: "#f57c00" }} href="https://sonnguyenhoang.com">
           Son Nguyen
         </a>{" "}
-        in 2024. Thank you for visiting DocuThinker! 🚀
+        in 2024. Thank you for visiting LegalLens! 🚀
       </Typography>
     </Box>
   );

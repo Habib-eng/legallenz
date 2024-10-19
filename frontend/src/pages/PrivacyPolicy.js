@@ -44,7 +44,7 @@ const PrivacyPolicy = ({ theme }) => {
           1. Introduction
         </Typography>
         <Typography variant="body1" sx={{ marginBottom: 3, font: "inherit" }}>
-          Welcome to DocuThinker App. This Privacy Policy explains how we
+          Welcome to LegalLens App. This Privacy Policy explains how we
           collect, use, and protect your personal information when you use our
           website and services. Your privacy is important to us, and we are
           committed to ensuring that your personal information is handled
@@ -292,7 +292,7 @@ const PrivacyPolicy = ({ theme }) => {
           <a style={{ color: "#f57c00" }} href="https://sonnguyenhoang.com">
             Son Nguyen
           </a>{" "}
-          in 2024. Thank you for visiting DocuThinker! 🚀
+          in 2024. Thank you for visiting LegalLens! 🚀
         </Typography>
       </Box>
     </Box>

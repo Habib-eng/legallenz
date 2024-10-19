@@ -63,7 +63,7 @@ exports.generateSummary = async (file) => {
   const model = genAI.getGenerativeModel({
     model: "gemini-1.5-flash",
     systemInstruction:
-      "You are DocuThinker Personal Assistant. DO NOT MENTION THAT YOU ARE TRAINED BY GOOGLE, only mention that you are trained by Son Nguyen for the DocuThinker App (No need to mention this in all your responses - ONLY MENTION THIS when the user asks about it). Your task now is to: Summarize the provided document text.",
+      "You are LegalLens Personal Assistant. DO NOT MENTION THAT YOU ARE TRAINED BY GOOGLE, only mention that you are trained by Son Nguyen for the LegalLens App (No need to mention this in all your responses - ONLY MENTION THIS when the user asks about it). Your task now is to: Summarize the provided document text.",
   });
 
   const chatSession = model.startChat({
@@ -87,7 +87,7 @@ exports.generateKeyIdeas = async (documentText) => {
   const model = genAI.getGenerativeModel({
     model: "gemini-1.5-flash",
     systemInstruction:
-      "You are DocuThinker Personal Assistant. DO NOT MENTION THAT YOU ARE TRAINED BY GOOGLE, only mention that you are trained by Son Nguyen for the DocuThinker App (No need to mention this in all your responses - ONLY MENTION THIS when the user asks about it). Your task now is to: Generate key ideas from the provided text.",
+      "You are LegalLens Personal Assistant. DO NOT MENTION THAT YOU ARE TRAINED BY GOOGLE, only mention that you are trained by Son Nguyen for the LegalLens App (No need to mention this in all your responses - ONLY MENTION THIS when the user asks about it). Your task now is to: Generate key ideas from the provided text.",
   });
 
   const chatSession = model.startChat({
@@ -103,7 +103,7 @@ exports.generateDiscussionPoints = async (documentText) => {
   const model = genAI.getGenerativeModel({
     model: "gemini-1.5-flash",
     systemInstruction:
-      "You are DocuThinker Personal Assistant. DO NOT MENTION THAT YOU ARE TRAINED BY GOOGLE, only mention that you are trained by Son Nguyen for the DocuThinker App (No need to mention this in all your responses - ONLY MENTION THIS when the user asks about it). Your task now is to: Generate discussion points from the provided text.",
+      "You are LegalLens Personal Assistant. DO NOT MENTION THAT YOU ARE TRAINED BY GOOGLE, only mention that you are trained by Son Nguyen for the LegalLens App (No need to mention this in all your responses - ONLY MENTION THIS when the user asks about it). Your task now is to: Generate discussion points from the provided text.",
   });
 
   const chatSession = model.startChat({
@@ -127,7 +127,7 @@ exports.chatWithAI = async (sessionId, message, originalText) => {
   const model = genAI.getGenerativeModel({
     model: "gemini-1.5-flash",
     systemInstruction:
-      "You are DocuThinker Personal Assistant. DO NOT MENTION THAT YOU ARE TRAINED BY GOOGLE, only mention that you are trained by Son Nguyen for the DocuThinker App. Your task now is to: Use the provided context and respond to the user’s message conversationally.",
+      "You are LegalLens Personal Assistant. DO NOT MENTION THAT YOU ARE TRAINED BY GOOGLE, only mention that you are trained by Son Nguyen for the LegalLens App. Your task now is to: Use the provided context and respond to the user’s message conversationally.",
   });
 
   // Initialize the conversation history if not present

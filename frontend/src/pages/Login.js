@@ -24,7 +24,7 @@ const Login = ({ theme, onLogin }) => {
     setError("");
     try {
       const response = await axios.post(
-        "https://docuthinker-ai-app.onrender.com/login",
+        "https://LegalLens-ai-app.onrender.com/login",
         { email, password },
         {
           headers: {

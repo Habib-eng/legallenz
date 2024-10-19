@@ -2,7 +2,7 @@ version: "3"
 
 services:
   backend:
-    container_name: docuthinker-backend
+    container_name: LegalLens-backend
     build:
       context: ./backend
     ports:
@@ -14,10 +14,10 @@ services:
     depends_on:
       - firebase
     networks:
-      - docuthinker-net
+      - LegalLens-net
 
   frontend:
-    container_name: docuthinker-frontend
+    container_name: LegalLens-frontend
     build:
       context: ./frontend
     ports:
@@ -29,15 +29,15 @@ services:
     depends_on:
       - backend
     networks:
-      - docuthinker-net
+      - LegalLens-net
 
   firebase:
     image: firebase:latest
     volumes:
       - ./backend/.env:/app/.env
     networks:
-      - docuthinker-net
+      - LegalLens-net
 
 networks:
-  docuthinker-net:
+  LegalLens-net:
     driver: bridge

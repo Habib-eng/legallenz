@@ -155,7 +155,7 @@ const Footer = () => {
 
       {/* Footer Text */}
       <Typography variant="body2" sx={{ color: "white", font: "inherit" }}>
-        © {new Date().getFullYear()} DocuThinker. All rights reserved.
+        © {new Date().getFullYear()} LegalLens. All rights reserved.
       </Typography>
     </Box>
   );

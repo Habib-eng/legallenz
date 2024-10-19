@@ -38,8 +38,8 @@ const corsOptions = {
     "http://localhost:3001",
     "http://localhost:3002",
     "http://localhost:3000",
-    "https://docuthinker-fullstack-app.vercel.app",
-    "https://docuthinker-ai-app.netlify.app",
+    "https://LegalLens-fullstack-app.vercel.app",
+    "https://LegalLens-ai-app.netlify.app",
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true,
@@ -52,15 +52,15 @@ const swaggerOptions = {
   swaggerDefinition: {
     openapi: "3.0.0",
     info: {
-      title: "DocuThinker API Documentation",
+      title: "LegalLens API Documentation",
       version: "1.1.0",
       description:
-        "Comprehensive API documentation for the DocuThinker application.",
+        "Comprehensive API documentation for the LegalLens application.",
       termsOfService:
-        "https://docuthinker-fullstack-app.vercel.app/terms-of-service",
+        "https://LegalLens-fullstack-app.vercel.app/terms-of-service",
       contact: {
-        name: "DocuThinker",
-        url: "https://docuthinker-fullstack-app.vercel.app/",
+        name: "LegalLens",
+        url: "https://LegalLens-fullstack-app.vercel.app/",
         email: "hoangson091104@gmail.com",
       },
       license: {
@@ -70,7 +70,7 @@ const swaggerOptions = {
     },
     servers: [
       {
-        url: "https://docuthinker-ai-app.onrender.com/",
+        url: "https://LegalLens-ai-app.onrender.com/",
         description: "Production server",
       },
       {

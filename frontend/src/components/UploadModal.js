@@ -112,7 +112,7 @@ const UploadModal = ({
     try {
       setLoading(true);
       const response = await axios.post(
-        "https://docuthinker-ai-app.onrender.com/upload",
+        "https://LegalLens-ai-app.onrender.com/upload",
         formData,
         {
           headers: {

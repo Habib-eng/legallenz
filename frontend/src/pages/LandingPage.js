@@ -58,7 +58,7 @@ const LandingPage = ({ theme }) => {
               fontWeight: 600,
             }}
           >
-            Welcome to DocuThinker
+            Welcome to LegalLens
           </Typography>
           <Typography
             variant="h6"
@@ -203,7 +203,7 @@ const LandingPage = ({ theme }) => {
               fontSize: "1.5rem",
             }}
           >
-            Why Choose DocuThinker?
+            Why Choose LegalLens?
           </Typography>
           <Typography
             variant="body1"
@@ -255,10 +255,10 @@ const LandingPage = ({ theme }) => {
             }}
           >
             Visit our documentation to explore the features, functionalities,
-            and how to get started with DocuThinker.
+            and how to get started with LegalLens.
           </Typography>
           <Button
-            href="https://github.com/hoangsonww/DocuThinker-AI-App"
+            href="https://github.com/hoangsonww/LegalLens-AI-App"
             target="_blank"
             variant="contained"
             sx={{

@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: docuthinker-backend
+    name: LegalLens-backend
     env: node
     plan: free
     buildCommand: "npm install"

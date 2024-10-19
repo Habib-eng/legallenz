@@ -204,7 +204,7 @@ const Navbar = ({ theme, onThemeToggle, onLogout }) => {
             textDecoration: "none",
           }}
         >
-          DocuThinker
+          LegalLens
         </Typography>
 
         <Box sx={{ display: { xs: "none", md: "flex" } }}>{renderNavLinks}</Box>

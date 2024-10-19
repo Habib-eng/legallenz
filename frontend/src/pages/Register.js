@@ -32,7 +32,7 @@ const Register = ({ theme }) => {
     try {
       setLoading(true);
       const response = await axios.post(
-        "https://docuthinker-ai-app.onrender.com/register",
+        "https://LegalLens-ai-app.onrender.com/register",
         { email, password },
         { headers: { "Content-Type": "application/json" } },
       );

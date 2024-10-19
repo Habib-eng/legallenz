@@ -46,19 +46,19 @@ const Profile = ({ theme }) => {
       const fetchData = async () => {
         try {
           const emailResponse = await axios.get(
-            `https://docuthinker-ai-app.onrender.com/users/${userId}`,
+            `https://LegalLens-ai-app.onrender.com/users/${userId}`,
           );
           const daysResponse = await axios.get(
-            `https://docuthinker-ai-app.onrender.com/days-since-joined/${userId}`,
+            `https://LegalLens-ai-app.onrender.com/days-since-joined/${userId}`,
           );
           const documentResponse = await axios.get(
-            `https://docuthinker-ai-app.onrender.com/document-count/${userId}`,
+            `https://LegalLens-ai-app.onrender.com/document-count/${userId}`,
           );
           const joinedDateResponse = await axios.get(
-            `https://docuthinker-ai-app.onrender.com/user-joined-date/${userId}`,
+            `https://LegalLens-ai-app.onrender.com/user-joined-date/${userId}`,
           );
           const socialMediaResponse = await axios.get(
-            `https://docuthinker-ai-app.onrender.com/social-media/${userId}`,
+            `https://LegalLens-ai-app.onrender.com/social-media/${userId}`,
           );
 
           if (
@@ -99,7 +99,7 @@ const Profile = ({ theme }) => {
     setError("");
 
     try {
-      await axios.post("https://docuthinker-ai-app.onrender.com/update-email", {
+      await axios.post("https://LegalLens-ai-app.onrender.com/update-email", {
         userId,
         newEmail,
       });
@@ -116,7 +116,7 @@ const Profile = ({ theme }) => {
     setUpdatingSocialMedia(true);
     try {
       await axios.post(
-        "https://docuthinker-ai-app.onrender.com/update-social-media",
+        "https://LegalLens-ai-app.onrender.com/update-social-media",
         {
           userId,
           ...socialMedia,
@@ -422,7 +422,7 @@ const Profile = ({ theme }) => {
         <Typography
           sx={{ mt: 3, font: "inherit", fontWeight: "bold", fontSize: "18px" }}
         >
-          Thank you for exploring DocuThinker today! 🚀
+          Thank you for exploring LegalLens today! 🚀
         </Typography>
 
         <div
