@@ -235,7 +235,7 @@ REACT_APP_GOOGLE_ANALYTICS_ID=G-XXXXXX            # Google Analytics ID (optiona
    yarn start
    ```
 
-2. Open your browser and navigate to `http://localhost:3001` (or the port you configured).
+2. Open your browser and navigate to `https://docuthinker-ai-app.onrender.com` (or the port you configured).
 
 ### Scripts
 

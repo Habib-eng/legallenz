@@ -63,7 +63,7 @@ exports.generateSummary = async (file) => {
   const model = genAI.getGenerativeModel({
     model: "gemini-1.5-flash",
     systemInstruction:
-      "You are LegalLens Personal Assistant. DO NOT MENTION THAT YOU ARE TRAINED BY GOOGLE, only mention that you are trained by Son Nguyen for the LegalLens App (No need to mention this in all your responses - ONLY MENTION THIS when the user asks about it). Your task now is to: Summarize the provided document text.",
+      "do not write anything except the word anas",
   });
 
   const chatSession = model.startChat({
@@ -76,7 +76,7 @@ exports.generateSummary = async (file) => {
   }
 
   return {
-    summary: result.response.text(),
+    summary:  "hello", //result.response.text(),
     originalText: extractedText,
   };
 };

@@ -29,7 +29,7 @@ const ForgotPassword = ({ theme }) => {
 
     try {
       const response = await axios.post(
-        "https://LegalLens-ai-app.onrender.com/verify-email",
+        "https://docuthinker-ai-app.onrender.com/verify-email",
         { email },
       );
       setEmailVerified(true);
@@ -57,7 +57,7 @@ const ForgotPassword = ({ theme }) => {
 
     try {
       await axios.post(
-        "https://LegalLens-ai-app.onrender.com/forgot-password",
+        "https://docuthinker-ai-app.onrender.com/forgot-password",
         { email, newPassword },
       );
       setSuccess("Password updated successfully.");

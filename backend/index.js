@@ -35,7 +35,7 @@ app.use(express.json());
 // CORS configuration
 const corsOptions = {
   origin: [
-    "http://localhost:3001",
+    "https://docuthinker-ai-app.onrender.com",
     "http://localhost:3002",
     "http://localhost:3000",
     "https://LegalLens-fullstack-app.vercel.app",
@@ -70,7 +70,7 @@ const swaggerOptions = {
     },
     servers: [
       {
-        url: "https://LegalLens-ai-app.onrender.com/",
+        url: "https://docuthinker-ai-app.onrender.com/",
         description: "Production server",
       },
       {
